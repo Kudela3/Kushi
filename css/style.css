@@ -434,3 +434,46 @@ header.sticky{
     opacity: 1;
 }
 
+.Discount{
+    background-color: var(--bg-1-color);
+}
+
+.dis-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: var(--sec-color);
+    margin-bottom: 80px;
+}
+
+.dis-top{
+    color: var(--main-color);
+    font-size: var(--h3-font);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.dis-top span{
+    color: var(--hov-color);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.dis-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis-btn i{
+    color: var(--hov-color);
+    font-size: var(--h3-font);
+    margin-right: 2px;
+}
+
+.dis-btn span{
+    font-size: var(--p-font);
+    text-transform: capitalize;
+    font-weight: 700;
+}
